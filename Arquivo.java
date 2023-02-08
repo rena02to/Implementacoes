@@ -13,7 +13,8 @@ import java.io.FileWriter;
 
 public class Arquivo {
     public static void createFileAluno(Aluno aluno) {
-        String file_name = Integer.toString(aluno.numeroDeMatricula) + "_" + aluno.nome;
+        // String file_name = Integer.toString(aluno.numeroDeMatricula) + "_" + aluno.nome;
+        String file_name = Integer.toString(aluno.numeroDeMatricula);
         String file_content = AlunoCreator.getAlunoInfoAsString(aluno);
 
         try {
