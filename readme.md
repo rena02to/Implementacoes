@@ -7,8 +7,12 @@ javac Aluno.java
 javac AlunoCreator.java
 javac AlunoManager.java
 javac Arquivo.java
+javac Edit.java
 javac Main.java
+javac Menu.java
 javac NumeroMatricula.java
+javac Programa.java
+
 
 java Main
 ```
