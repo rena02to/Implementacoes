@@ -28,7 +28,7 @@ public class Menu
         }
         if (selection == 3) {
             
-            
+            Edit.options();
 
         }
         if (selection == 4) {
